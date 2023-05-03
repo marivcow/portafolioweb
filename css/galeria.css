@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', san-serif;
+}
+
+body{
+    background-color: #fff; 
+    min-height: 100vh;
+    overflow-x: hidden; 
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px 30px 50px;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2000;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: #110011;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background: #fae8f0;
+    color: #110011;
+}
+.traba{
+    margin-top: 5%;
+ }
+ .trabas{
+    background-color: #dc8c8c;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .trabass{
+    margin-top: 5%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .trabas2{
+    margin-bottom: 6%;
+  
+ }
+
+ .mod{
+    margin-top: 5%;
+ }
+ .mod:hover{
+    background-color: rgb(79, 79, 79);
+    opacity: 50%;
+ }
+ .traba2{
+    margin-top: 5%;
+ }
+
+ .trabano{
+    display: none;
+ }
+ .trabasi{
+    display: block;
+}
+
+.vmodal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    z-index: 2001;
+    display: none;
+    transition: 3s;
+}
+.vmodal-show{
+    display: block;
+}
+.vmodal_container{
+    border-radius: 3%;
+    margin: auto;
+    width: 40%;
+    background-color: #1b1b1b;
+    
+}
+.vmodal_title{
+   color: #fff;
+   background-color: cadetblue;
+}
+.vmti{
+    color: #d26f6f;
+    text-align: center;
+    margin-top: 3%;
+}
+.vmodal_des{
+    display: flex;
+    justify-content: center;
+}
+.vmtext{
+    color: white;
+    margin: 5%;
+    text-align: justify;
+}
+.mimg{
+    display: flex;
+    justify-content: center;
+}
+.vmodal_close{
+    display: flex;
+    justify-content: center;
+}
+.but5{
+    margin: 3%;
+}
+.but5:hover{
+    background-color: #E42524;
+    color: white;
+}
+.vmodal2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    z-index: 2001;
+    display: none;
+    transition: 3s;
+}
+.vmodal-show2{
+    display: block;
+    transition: 3s;
+}
+.vmodal-show3{
+    display: block;
+    transition: 3s;
+}
+.vmodal-show4{
+    display: block;
+}
+.vmodal-show5{
+    display: block;
+}
