@@ -54,6 +54,7 @@ nav ul li a.active{
 .logo{
     float: left;
     text-align: center;
+
 }
 .texto1{
     background-color: #dbc8d3;
@@ -78,77 +79,22 @@ nav ul li a.active{
     text-align: center;
     padding: 5%;
 }
-main{
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 2px;
-}
-section{
-    transform-style: preserve-3d;
-    position: relative;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: whitesmoke;
-}
-section h1{
-    text-align: center;
-    font-size: 4rem;
-}
-.no-parallax{
-    background-color: whitesmoke;
-    z-index: 999;
-    width: 100%;
-}
-.parallax h1{
-    width: 100%;
-    font-size: 2rem;
-}
-.parallax::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    transform: translateZ(-1px) scale(1.5);
-    z-index: -1;
-    
-}
-.bg::after{
-    background: linear-gradient(rgba(173, 101, 101, 0.5), rgba(178, 200, 211, 0.5)), url(../imagenes/descarga\ \(10\).jpg);
-    background-size: cover;
-}
-.habilidades{
-    background-color: #c8dbc0;
+.texto10{
+    background-color: #faf3cf;
     border-radius: 30px;
-    color: rgb(245, 245, 245);
-    float: left;
-    font-size: 1.5rem;
+    color: rgb(163, 88, 88);
+    font-family: fuentemari1;
+    float: right;
+    text-align: right;
     text-align: center;
-    padding: 5%;
-    width: 80%;
-    margin: 15px;
 }
-.motivacion{
-    background-color: #dfe079;
-    border-radius: 30px;
+.contenido10{
+    background-color: #924747;
     color: rgb(245, 245, 245);
     float: right;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 5%;
-    width: 50%;
-    margin: 15px;
 }
-.contacto{
-    background-color: #cfb1ca;
-    border-radius: 30px;
-    color: rgb(245, 245, 245);
-    font-size: 1.5rem;
-    text-align: center;
-    width: 80vh;
-    margin: 15px;
-}
+   
+      
